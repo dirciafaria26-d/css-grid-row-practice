@@ -1,0 +1,27 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+}
+
+.item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid steelblue;
+}
+
+.item1 {
+    grid-row: 1 / 3;
+}
